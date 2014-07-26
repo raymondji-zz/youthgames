@@ -1,5 +1,6 @@
 youthgames
 ==========
+Icons: FontAwesome
 
 Custom Landing page the Markham Youth Games 2014 
 
