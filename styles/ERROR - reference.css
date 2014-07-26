@@ -1,0 +1,241 @@
+
+
+
+
+/*General Styles */
+
+body {
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #444444 ;
+	margin: 0;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, sans-serif;
+}
+/* Global Styles */
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	width: 100%;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Typography */
+
+
+/* Layout */
+
+/* In Vertical Order */
+
+.logo {
+	height: 4em;
+	width: 6.4em;
+	margin: 0 auto;
+	display: none;
+	padding: 0;
+}
+
+.nav a {
+	margin: 0 auto;
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	display: inline-block;
+	top: -2em;
+	padding: 0 .8%;
+}
+
+
+
+.nav {
+	height: 4em;
+	background-color: transparent;
+	transition: all 0.25s ease;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	text-align: center;
+}
+
+.nav a:nth-child(2) {
+	font-size: 1em;
+}
+
+.nav.past-main {
+	background-color: #fff;
+}
+
+.nav.past-main a {
+	color: black;
+	top: -2em;
+}
+
+.nav.past-main .logo {
+	display: inline-block;
+}
+
+.nav.past-main a:nth-child(2) p {
+	display: none;
+}
+
+#banner {
+	background-size: cover;
+	width: 100%;
+	background-position: center center;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/forest.jpg');
+	height: 30em;
+}
+
+#banner h1 {
+	font-family: Ariel;
+	color: white;
+	margin: 0 auto;
+	line-height: 1em;
+	font-size: 4em;
+	max-width: 85%;
+	padding-top: 30%;
+}
+
+#banner hr {
+	width: 60%;
+}
+
+/* Three bullets sections */
+.info {
+	color: white;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.info h2 {
+	text-align: center;
+}
+
+
+.info ul li {
+	border: 1px white solid;
+}
+
+
+
+#img2 {
+	background-image: url('../images/ygbanner.jpg');
+	height: 10em;
+}
+
+.details {
+	background: #eeeeee;
+	margin: 0;
+}
+
+#img3 {
+	background-image: url('../images/training2.jpg');
+	height: 10em;
+}
+
+
+
+.registration {
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer {
+	height: 4em;
+	background-color: #eee;
+	padding: 1em 0 1em 3%;
+}
+
+
+
+/* Medium Screens */
+
+@media all and (min-width: 540px) {
+	.container {
+		max-width: 980px;
+		margin: 0 auto;
+	}
+
+	.nav a:nth-child(2) {
+	font-size: 1.1em;
+	border-left: 0.1em white solid;
+	border-right: 0.1em white solid;
+	border-radius: 1.5em;
+	}
+
+	.nav.past-main a:nth-child(2) {
+		border: none;
+	}
+
+	#banner {
+		height: 40em;
+	}
+
+	#banner h1 {
+		font-size: 4em;
+		padding-top: 35%;
+	}
+
+	ul li {
+		max-width: 31%;
+		display: inline-block;
+	}
+
+}
+
+/* Medium Screens */
+
+@media all and (min-width: 760px) {
+	.container {
+		max-width: 980px;
+		margin: 0 auto;
+	}
+
+	.nav a:nth-child(2) {
+	font-size: 1.1em;
+	border-left: 0.1em white solid;
+	border-right: 0.1em white solid;
+	border-radius: 1.5em;
+	}
+
+	.nav.past-main a:nth-child(2) {
+		border: none;
+	}
+
+	#banner {
+		height: 50em;
+	}
+
+	#banner h1 {
+		padding-top: 50%;
+	}
+
+	ul li {
+		max-width: 31%;
+		display: inline-block;
+	}
+}
+
